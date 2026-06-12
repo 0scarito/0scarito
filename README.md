@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/0scarito-marquee.svg" alt="Animated contribution-grid marquee for 0scarito" width="100%">
+</p>
+
 <h1 align="center">Oscar Caudreliez</h1>
 
 <p align="center">

@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 1200 360">
+  <title id="title">0scarito animated contribution-grid marquee</title>
+  <desc id="desc">Green contribution-graph tiles travel along stepped paths to assemble 0scarito, hold with a glow, then fade away.</desc>
+  <defs>
+    <linearGradient id="backdrop" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#05080d"/>
+      <stop offset="0.54" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#10171f"/>
+    </linearGradient>
+    <clipPath id="stage-clip">
+      <rect x="42" y="42" width="1116" height="276" rx="14"/>
+    </clipPath>
+    <filter id="arrival-glow" x="-18%" y="-28%" width="136%" height="156%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22  0 0 0 0 0.95  0 0 0 0 0.35  0 0 0 .85 0" result="greenBlur"/>
+      <feMerge>
+        <feMergeNode in="greenBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <rect id="cell" width="13" height="13" rx="3"/>
+    <pattern id="grid" x="50" y="46" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="13" height="13" rx="3" fill="#161b22"/>
+    </pattern>
+    <style>
+      .bit {
+        animation-duration: 13.2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        opacity: 0;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .tile-0 { animation-name: tile-0; }
+      .tile-1 { animation-name: tile-1; }
+      .tile-2 { animation-name: tile-2; }
+      .tile-3 { animation-name: tile-3; }
+      .tile-4 { animation-name: tile-4; }
+      .tile-5 { animation-name: tile-5; }
+      .tile-6 { animation-name: tile-6; }
+      .tile-7 { animation-name: tile-7; }
+      .tile-8 { animation-name: tile-8; }
+      .tile-9 { animation-name: tile-9; }
+      .tile-10 { animation-name: tile-10; }
+      .tile-11 { animation-name: tile-11; }
+      .noise {
+        animation: noise-pulse 13.2s ease-in-out infinite;
+        opacity: 0.35;
+      }
+      .noise-1 { animation-delay: -4.4s; }
+      .noise-2 { animation-delay: -8.8s; }
+      .subtitle {
+        animation: subtitle-pop 13.2s ease-in-out infinite;
+        opacity: 0;
+      }
+@keyframes tile-0 {
+  0%, 4.0% { opacity: 0; transform: translate(-420px, -180px); }
+  4.0% { opacity: 1; transform: translate(-420px, -180px); }
+  8.4% { opacity: 1; transform: translate(-420px, -90px); }
+  12.8% { opacity: 1; transform: translate(-210px, -90px); }
+  17.2% { opacity: 1; transform: translate(-210px, 0px); }
+  21.6% { opacity: 1; transform: translate(-63px, 0px); }
+  26.0% { opacity: 1; transform: translate(0px, 0px); }
+  80.0% { opacity: 1; transform: translate(0, 0); }
+  89.0%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-1 {
+  0%, 4.9% { opacity: 0; transform: translate(380px, -140px); }
+  4.9% { opacity: 1; transform: translate(380px, -140px); }
+  9.3% { opacity: 1; transform: translate(380px, -70px); }
+  13.6% { opacity: 1; transform: translate(190px, -70px); }
+  18.0% { opacity: 1; transform: translate(190px, 0px); }
+  22.3% { opacity: 1; transform: translate(57px, 0px); }
+  26.7% { opacity: 1; transform: translate(0px, 0px); }
+  80.6% { opacity: 1; transform: translate(0, 0); }
+  89.6%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-2 {
+  0%, 5.8% { opacity: 0; transform: translate(-300px, 160px); }
+  5.8% { opacity: 1; transform: translate(-300px, 160px); }
+  10.1% { opacity: 1; transform: translate(-300px, 80px); }
+  14.4% { opacity: 1; transform: translate(-150px, 80px); }
+  18.8% { opacity: 1; transform: translate(-150px, 0px); }
+  23.1% { opacity: 1; transform: translate(-45px, 0px); }
+  27.4% { opacity: 1; transform: translate(0px, 0px); }
+  81.2% { opacity: 1; transform: translate(0, 0); }
+  90.2%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-3 {
+  0%, 6.7% { opacity: 0; transform: translate(260px, 180px); }
+  6.7% { opacity: 1; transform: translate(260px, 180px); }
+  11.0% { opacity: 1; transform: translate(260px, 90px); }
+  15.3% { opacity: 1; transform: translate(130px, 90px); }
+  19.5% { opacity: 1; transform: translate(130px, 0px); }
+  23.8% { opacity: 1; transform: translate(39px, 0px); }
+  28.1% { opacity: 1; transform: translate(0px, 0px); }
+  81.8% { opacity: 1; transform: translate(0, 0); }
+  90.8%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-4 {
+  0%, 7.6% { opacity: 0; transform: translate(-480px, -120px); }
+  7.6% { opacity: 1; transform: translate(-480px, -120px); }
+  11.8% { opacity: 1; transform: translate(-480px, -60px); }
+  16.1% { opacity: 1; transform: translate(-240px, -60px); }
+  20.3% { opacity: 1; transform: translate(-240px, 0px); }
+  24.6% { opacity: 1; transform: translate(-72px, 0px); }
+  28.8% { opacity: 1; transform: translate(0px, 0px); }
+  80.0% { opacity: 1; transform: translate(0, 0); }
+  89.0%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-5 {
+  0%, 8.5% { opacity: 0; transform: translate(420px, 140px); }
+  8.5% { opacity: 1; transform: translate(420px, 140px); }
+  12.7% { opacity: 1; transform: translate(420px, 70px); }
+  16.9% { opacity: 1; transform: translate(210px, 70px); }
+  21.1% { opacity: 1; transform: translate(210px, 0px); }
+  25.3% { opacity: 1; transform: translate(63px, 0px); }
+  29.5% { opacity: 1; transform: translate(0px, 0px); }
+  80.6% { opacity: 1; transform: translate(0, 0); }
+  89.6%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-6 {
+  0%, 9.4% { opacity: 0; transform: translate(-340px, -160px); }
+  9.4% { opacity: 1; transform: translate(-340px, -160px); }
+  13.6% { opacity: 1; transform: translate(-340px, -80px); }
+  17.7% { opacity: 1; transform: translate(-170px, -80px); }
+  21.9% { opacity: 1; transform: translate(-170px, 0px); }
+  26.0% { opacity: 1; transform: translate(-51px, 0px); }
+  30.2% { opacity: 1; transform: translate(0px, 0px); }
+  81.2% { opacity: 1; transform: translate(0, 0); }
+  90.2%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-7 {
+  0%, 10.3% { opacity: 0; transform: translate(300px, 120px); }
+  10.3% { opacity: 1; transform: translate(300px, 120px); }
+  14.4% { opacity: 1; transform: translate(300px, 60px); }
+  18.5% { opacity: 1; transform: translate(150px, 60px); }
+  22.7% { opacity: 1; transform: translate(150px, 0px); }
+  26.8% { opacity: 1; transform: translate(45px, 0px); }
+  30.9% { opacity: 1; transform: translate(0px, 0px); }
+  81.8% { opacity: 1; transform: translate(0, 0); }
+  90.8%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-8 {
+  0%, 11.2% { opacity: 0; transform: translate(-260px, 180px); }
+  11.2% { opacity: 1; transform: translate(-260px, 180px); }
+  15.3% { opacity: 1; transform: translate(-260px, 90px); }
+  19.4% { opacity: 1; transform: translate(-130px, 90px); }
+  23.4% { opacity: 1; transform: translate(-130px, 0px); }
+  27.5% { opacity: 1; transform: translate(-39px, 0px); }
+  31.6% { opacity: 1; transform: translate(0px, 0px); }
+  80.0% { opacity: 1; transform: translate(0, 0); }
+  89.0%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-9 {
+  0%, 12.1% { opacity: 0; transform: translate(440px, -180px); }
+  12.1% { opacity: 1; transform: translate(440px, -180px); }
+  16.1% { opacity: 1; transform: translate(440px, -90px); }
+  20.2% { opacity: 1; transform: translate(220px, -90px); }
+  24.2% { opacity: 1; transform: translate(220px, 0px); }
+  28.3% { opacity: 1; transform: translate(66px, 0px); }
+  32.3% { opacity: 1; transform: translate(0px, 0px); }
+  80.6% { opacity: 1; transform: translate(0, 0); }
+  89.6%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-10 {
+  0%, 13.0% { opacity: 0; transform: translate(-380px, 130px); }
+  13.0% { opacity: 1; transform: translate(-380px, 130px); }
+  17.0% { opacity: 1; transform: translate(-380px, 65px); }
+  21.0% { opacity: 1; transform: translate(-190px, 65px); }
+  25.0% { opacity: 1; transform: translate(-190px, 0px); }
+  29.0% { opacity: 1; transform: translate(-57px, 0px); }
+  33.0% { opacity: 1; transform: translate(0px, 0px); }
+  81.2% { opacity: 1; transform: translate(0, 0); }
+  90.2%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+@keyframes tile-11 {
+  0%, 13.9% { opacity: 0; transform: translate(340px, -130px); }
+  13.9% { opacity: 1; transform: translate(340px, -130px); }
+  17.9% { opacity: 1; transform: translate(340px, -65px); }
+  21.8% { opacity: 1; transform: translate(170px, -65px); }
+  25.8% { opacity: 1; transform: translate(170px, 0px); }
+  29.7% { opacity: 1; transform: translate(51px, 0px); }
+  33.7% { opacity: 1; transform: translate(0px, 0px); }
+  81.8% { opacity: 1; transform: translate(0, 0); }
+  90.8%, 100% { opacity: 0; transform: translate(0, 0); }
+}
+      @keyframes noise-pulse {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 0.55; }
+      }
+      @keyframes subtitle-pop {
+        0%, 34% { opacity: 0; }
+        42%, 78% { opacity: 1; }
+        88%, 100% { opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .bit { animation: none; opacity: 1; transform: none; }
+        .subtitle { animation: none; opacity: 1; }
+        .noise { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#backdrop)"/>
+  <rect x="42" y="42" width="1116" height="276" rx="14" fill="none" stroke="#21262d" stroke-width="2"/>
+  <g clip-path="url(#stage-clip)">
+    <rect x="42" y="42" width="1116" height="276" fill="url(#grid)"/>
+    <use href="#cell" x="1026" y="174" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="626" y="142" fill="#0e4429" class="noise noise-1"/><use href="#cell" x="194" y="78" fill="#0e4429" class="noise noise-2"/><use href="#cell" x="546" y="158" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="1042" y="78" fill="#0e4429" class="noise noise-1"/><use href="#cell" x="210" y="254" fill="#0e4429" class="noise noise-2"/><use href="#cell" x="898" y="62" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="946" y="222" fill="#0e4429" class="noise noise-1"/><use href="#cell" x="66" y="286" fill="#0e4429" class="noise noise-2"/><use href="#cell" x="562" y="110" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="738" y="158" fill="#0e4429" class="noise noise-1"/><use href="#cell" x="1122" y="110" fill="#0e4429" class="noise noise-2"/><use href="#cell" x="242" y="238" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="658" y="62" fill="#0e4429" class="noise noise-1"/><use href="#cell" x="1122" y="78" fill="#0e4429" class="noise noise-2"/><use href="#cell" x="386" y="270" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="146" y="126" fill="#0e4429" class="noise noise-1"/><use href="#cell" x="66" y="270" fill="#0e4429" class="noise noise-2"/><use href="#cell" x="898" y="78" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="674" y="270" fill="#0e4429" class="noise noise-1"/><use href="#cell" x="994" y="222" fill="#0e4429" class="noise noise-2"/><use href="#cell" x="66" y="222" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="402" y="286" fill="#0e4429" class="noise noise-1"/><use href="#cell" x="770" y="302" fill="#0e4429" class="noise noise-2"/><use href="#cell" x="162" y="302" fill="#0e4429" class="noise noise-0"/><use href="#cell" x="546" y="126" fill="#0e4429" class="noise noise-1"/>
+    <g filter="url(#arrival-glow)">
+      <use href="#cell" x="322" y="126" fill="#39d353" class="bit tile-0"/><use href="#cell" x="338" y="126" fill="#26a641" class="bit tile-7"/><use href="#cell" x="354" y="126" fill="#39d353" class="bit tile-2"/><use href="#cell" x="306" y="142" fill="#2ea043" class="bit tile-9"/><use href="#cell" x="370" y="142" fill="#39d353" class="bit tile-4"/><use href="#cell" x="306" y="158" fill="#26a641" class="bit tile-11"/><use href="#cell" x="354" y="158" fill="#39d353" class="bit tile-6"/><use href="#cell" x="370" y="158" fill="#2ea043" class="bit tile-1"/><use href="#cell" x="306" y="174" fill="#39d353" class="bit tile-8"/><use href="#cell" x="338" y="174" fill="#26a641" class="bit tile-3"/><use href="#cell" x="370" y="174" fill="#39d353" class="bit tile-10"/><use href="#cell" x="306" y="190" fill="#2ea043" class="bit tile-5"/><use href="#cell" x="322" y="190" fill="#39d353" class="bit tile-0"/><use href="#cell" x="370" y="190" fill="#26a641" class="bit tile-7"/><use href="#cell" x="306" y="206" fill="#39d353" class="bit tile-2"/><use href="#cell" x="370" y="206" fill="#2ea043" class="bit tile-9"/><use href="#cell" x="322" y="222" fill="#39d353" class="bit tile-4"/><use href="#cell" x="338" y="222" fill="#26a641" class="bit tile-11"/><use href="#cell" x="354" y="222" fill="#39d353" class="bit tile-6"/><use href="#cell" x="418" y="158" fill="#2ea043" class="bit tile-1"/><use href="#cell" x="434" y="158" fill="#39d353" class="bit tile-8"/><use href="#cell" x="450" y="158" fill="#26a641" class="bit tile-3"/><use href="#cell" x="402" y="174" fill="#39d353" class="bit tile-10"/><use href="#cell" x="418" y="190" fill="#2ea043" class="bit tile-5"/><use href="#cell" x="434" y="190" fill="#39d353" class="bit tile-0"/><use href="#cell" x="450" y="206" fill="#26a641" class="bit tile-7"/><use href="#cell" x="402" y="222" fill="#39d353" class="bit tile-2"/><use href="#cell" x="418" y="222" fill="#2ea043" class="bit tile-9"/><use href="#cell" x="434" y="222" fill="#39d353" class="bit tile-4"/><use href="#cell" x="498" y="158" fill="#26a641" class="bit tile-11"/><use href="#cell" x="514" y="158" fill="#39d353" class="bit tile-6"/><use href="#cell" x="530" y="158" fill="#2ea043" class="bit tile-1"/><use href="#cell" x="482" y="174" fill="#39d353" class="bit tile-8"/><use href="#cell" x="482" y="190" fill="#26a641" class="bit tile-3"/><use href="#cell" x="482" y="206" fill="#39d353" class="bit tile-10"/><use href="#cell" x="498" y="222" fill="#2ea043" class="bit tile-5"/><use href="#cell" x="514" y="222" fill="#39d353" class="bit tile-0"/><use href="#cell" x="530" y="222" fill="#26a641" class="bit tile-7"/><use href="#cell" x="578" y="158" fill="#39d353" class="bit tile-2"/><use href="#cell" x="594" y="158" fill="#2ea043" class="bit tile-9"/><use href="#cell" x="610" y="174" fill="#39d353" class="bit tile-4"/><use href="#cell" x="578" y="190" fill="#26a641" class="bit tile-11"/><use href="#cell" x="594" y="190" fill="#39d353" class="bit tile-6"/><use href="#cell" x="610" y="190" fill="#2ea043" class="bit tile-1"/><use href="#cell" x="562" y="206" fill="#39d353" class="bit tile-8"/><use href="#cell" x="610" y="206" fill="#26a641" class="bit tile-3"/><use href="#cell" x="578" y="222" fill="#39d353" class="bit tile-10"/><use href="#cell" x="594" y="222" fill="#2ea043" class="bit tile-5"/><use href="#cell" x="610" y="222" fill="#39d353" class="bit tile-0"/><use href="#cell" x="642" y="158" fill="#26a641" class="bit tile-7"/><use href="#cell" x="674" y="158" fill="#39d353" class="bit tile-2"/><use href="#cell" x="690" y="158" fill="#2ea043" class="bit tile-9"/><use href="#cell" x="642" y="174" fill="#39d353" class="bit tile-4"/><use href="#cell" x="658" y="174" fill="#26a641" class="bit tile-11"/><use href="#cell" x="642" y="190" fill="#39d353" class="bit tile-6"/><use href="#cell" x="642" y="206" fill="#2ea043" class="bit tile-1"/><use href="#cell" x="642" y="222" fill="#39d353" class="bit tile-8"/><use href="#cell" x="722" y="126" fill="#26a641" class="bit tile-3"/><use href="#cell" x="722" y="158" fill="#39d353" class="bit tile-10"/><use href="#cell" x="722" y="174" fill="#2ea043" class="bit tile-5"/><use href="#cell" x="722" y="190" fill="#39d353" class="bit tile-0"/><use href="#cell" x="722" y="206" fill="#26a641" class="bit tile-7"/><use href="#cell" x="722" y="222" fill="#39d353" class="bit tile-2"/><use href="#cell" x="770" y="126" fill="#2ea043" class="bit tile-9"/><use href="#cell" x="770" y="142" fill="#39d353" class="bit tile-4"/><use href="#cell" x="754" y="158" fill="#26a641" class="bit tile-11"/><use href="#cell" x="770" y="158" fill="#39d353" class="bit tile-6"/><use href="#cell" x="786" y="158" fill="#2ea043" class="bit tile-1"/><use href="#cell" x="770" y="174" fill="#39d353" class="bit tile-8"/><use href="#cell" x="770" y="190" fill="#26a641" class="bit tile-3"/><use href="#cell" x="770" y="206" fill="#39d353" class="bit tile-10"/><use href="#cell" x="770" y="222" fill="#2ea043" class="bit tile-5"/><use href="#cell" x="786" y="222" fill="#39d353" class="bit tile-0"/><use href="#cell" x="834" y="158" fill="#26a641" class="bit tile-7"/><use href="#cell" x="850" y="158" fill="#39d353" class="bit tile-2"/><use href="#cell" x="818" y="174" fill="#2ea043" class="bit tile-9"/><use href="#cell" x="866" y="174" fill="#39d353" class="bit tile-4"/><use href="#cell" x="818" y="190" fill="#26a641" class="bit tile-11"/><use href="#cell" x="866" y="190" fill="#39d353" class="bit tile-6"/><use href="#cell" x="818" y="206" fill="#2ea043" class="bit tile-1"/><use href="#cell" x="866" y="206" fill="#39d353" class="bit tile-8"/><use href="#cell" x="834" y="222" fill="#26a641" class="bit tile-3"/><use href="#cell" x="850" y="222" fill="#39d353" class="bit tile-10"/>
+    </g>
+  </g>
+  <text class="subtitle" x="600" y="344" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#7ee787">finance &#215; AI</text>
+</svg>
