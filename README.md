@@ -16,6 +16,7 @@ I build at the intersection of finance and AI: investment platforms with real KY
 
 | Project | What it does |
 | --- | --- |
+| [deflated-alpha](https://github.com/0scarito/deflated-alpha) | Audits backtests for overfitting — Deflated Sharpe, PBO/CSCV, Harvey-Liu haircuts behind one `audit()` call. |
 | [prismacapital](https://github.com/0scarito/prismacapital) | Investment gifting platform — real assets wrapped in redeemable coupons, with eID KYC and Stripe checkout. |
 | [prismacapitalflow](https://github.com/0scarito/prismacapitalflow) | Centralised KYC and client onboarding for French wealth advisors — onboard once, reuse across partners. |
 | [Graph_final_project](https://github.com/0scarito/Graph_final_project) | Neo4j + FastAPI graph analysis of the ICIJ Panama Papers: ownership tracing, GDS algorithms, risk flags. |
@@ -28,6 +29,7 @@ I build at the intersection of finance and AI: investment platforms with real KY
 
 | Area | Repos |
 | --- | --- |
+| Quant tooling | [deflated-alpha](https://github.com/0scarito/deflated-alpha) |
 | Fintech platforms | [prismacapital](https://github.com/0scarito/prismacapital), [prismacapitalflow](https://github.com/0scarito/prismacapitalflow) |
 | Finance × data | [Graph_final_project](https://github.com/0scarito/Graph_final_project), [Research-project](https://github.com/0scarito/Research-project) |
 | AI & ML | [NLP_TPs](https://github.com/0scarito/NLP_TPs), [KG_TPs](https://github.com/0scarito/KG_TPs), [automathon-2024](https://github.com/0scarito/automathon-2024) |
