@@ -5,12 +5,14 @@
 <h1 align="center">Oscar Caudreliez</h1>
 
 <p align="center">
-  Fintech platforms, wealth-management ops tools, AI agents, and data & graph pipelines.
+  Quant tooling, fintech platforms, wealth-management ops, and AI agent infrastructure.
 </p>
 
 ---
 
-I build at the intersection of finance and AI: investment platforms with real KYC and payment rails, ops tooling for wealth management, and agent infrastructure that automates my own workflows end to end.
+I build at the intersection of finance and AI.
+
+On the quant side, small well-tested libraries — auditing backtests for overfitting, calibrating arbitrage-free volatility surfaces — with the math validated against the original papers. On the product side, investment platforms with real KYC and payment rails, ops tooling for a Paris wealth-management firm, and agent infrastructure that automates my own workflows end to end.
 
 ## Featured Public Work
 
