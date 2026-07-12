@@ -20,6 +20,8 @@ On the quant side, small well-tested libraries — auditing backtests for overfi
 | --- | --- |
 | [deflated-alpha](https://github.com/0scarito/deflated-alpha) | Audits backtests for overfitting — Deflated Sharpe, PBO/CSCV, Harvey-Liu haircuts behind one `audit()` call. |
 | [svi-lab](https://github.com/0scarito/svi-lab) | Living vol-surface lab — daily SVI fits on real option chains with butterfly/calendar no-arb checks. |
+| [ngfs-toolkit](https://github.com/0scarito/ngfs-toolkit) | NGFS carbon-price scenarios and stranded-asset scoring, extracted from climate-finance research. |
+| [claude-finance-skills](https://github.com/0scarito/claude-finance-skills) | Finance skills for Claude Code — tested sizing math, falsifiable theses, honest backtest audits. |
 | [prismacapital](https://github.com/0scarito/prismacapital) | Investment gifting platform — real assets wrapped in redeemable coupons, with eID KYC and Stripe checkout. |
 | [prismacapitalflow](https://github.com/0scarito/prismacapitalflow) | Centralised KYC and client onboarding for French wealth advisors — onboard once, reuse across partners. |
 | [Graph_final_project](https://github.com/0scarito/Graph_final_project) | Neo4j + FastAPI graph analysis of the ICIJ Panama Papers: ownership tracing, GDS algorithms, risk flags. |
@@ -32,7 +34,8 @@ On the quant side, small well-tested libraries — auditing backtests for overfi
 
 | Area | Repos |
 | --- | --- |
-| Quant tooling | [deflated-alpha](https://github.com/0scarito/deflated-alpha), [svi-lab](https://github.com/0scarito/svi-lab) |
+| Quant tooling | [deflated-alpha](https://github.com/0scarito/deflated-alpha), [svi-lab](https://github.com/0scarito/svi-lab), [ngfs-toolkit](https://github.com/0scarito/ngfs-toolkit), [finagent-bench](https://github.com/0scarito/finagent-bench) |
+| Agent tooling | [claude-finance-skills](https://github.com/0scarito/claude-finance-skills) |
 | Fintech platforms | [prismacapital](https://github.com/0scarito/prismacapital), [prismacapitalflow](https://github.com/0scarito/prismacapitalflow) |
 | Finance × data | [Graph_final_project](https://github.com/0scarito/Graph_final_project), [Research-project](https://github.com/0scarito/Research-project) |
 | AI & ML | [NLP_TPs](https://github.com/0scarito/NLP_TPs), [KG_TPs](https://github.com/0scarito/KG_TPs), [automathon-2024](https://github.com/0scarito/automathon-2024) |
