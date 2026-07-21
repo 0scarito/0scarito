@@ -18,13 +18,13 @@ On the quant side, small well-tested libraries, auditing backtests for overfitti
 
 | Project | What it does |
 | --- | --- |
-| [deflated-alpha](https://github.com/0scarito/deflated-alpha) | Audits backtests for overfitting — Deflated Sharpe, PBO/CSCV, Harvey-Liu haircuts behind one `audit()` call. |
+| [deflated-alpha](https://github.com/0scarito/deflated-alpha) | Audits backtests for overfitting: Deflated Sharpe, PBO/CSCV, Harvey-Liu haircuts behind one `audit()` call. |
 | [svi-lab](https://github.com/0scarito/svi-lab) | Living vol-surface lab: daily SVI fits on real option chains with butterfly/calendar no-arb checks. |
 | [eur-curves](https://github.com/0scarito/eur-curves) | Living EUR rates lab: rebuilds the ECB AAA Svensson curve daily and proves it against ECB's published rates. |
 | [third-eye](https://github.com/0scarito/third-eye) | Adversarial LLM lenses attack your backtest for lookahead, survivorship and cost fantasy. |
 | [ngfs-toolkit](https://github.com/0scarito/ngfs-toolkit) | NGFS carbon-price scenarios and stranded-asset scoring, extracted from climate-finance research. |
 | [claude-finance-skills](https://github.com/0scarito/claude-finance-skills) | Finance skills for Claude Code: tested sizing math, falsifiable theses, honest backtest audits. |
-| [prismacapital](https://github.com/0scarito/prismacapital) | Investment gifting platform — real assets wrapped in redeemable coupons, with eID KYC and Stripe checkout. |
+| [prismacapital](https://github.com/0scarito/prismacapital) | Investment gifting platform: real assets wrapped in redeemable coupons, with eID KYC and Stripe checkout. |
 | [prismacapitalflow](https://github.com/0scarito/prismacapitalflow) | Centralised KYC and client onboarding for French wealth advisors. Onboard once, reuse across partners. |
 | [Graph_final_project](https://github.com/0scarito/Graph_final_project) | Neo4j + FastAPI graph analysis of the ICIJ Panama Papers: ownership tracing, GDS algorithms, risk flags. |
 | [Research-project](https://github.com/0scarito/Research-project) | Carbon-stranding risk pipeline scoring 5,000 agricultural enterprises under NGFS carbon-price scenarios. |
@@ -50,10 +50,10 @@ Named without links:
 
 | Area | Projects |
 | --- | --- |
-| Fintech in production | Retail investment platform — KYC, 2FA, payment rails, fund orders (React / Supabase / Cloudflare) · KYC back-office PWA for client onboarding |
+| Fintech in production | Retail investment platform with KYC, 2FA, payment rails, fund orders (React / Supabase / Cloudflare) · KYC back-office PWA for client onboarding |
 | Wealth-management ops | Deal-flow pipeline & billing app for a Paris wealth-management firm — RBAC, RLS, audit log, multi-currency |
-| Agent infrastructure | Personal AI system on WSL — skills, cron agents, voice, telemetry · Obsidian second-brain automation (Claude skills & plugins) |
-| Intelligence pipelines | Newsletter-intelligence pipeline — 5 live n8n workflows pushing signals to Discord · weekly news-digest agent |
+| Agent infrastructure | Personal AI system on WSL, skills, cron agents, voice, telemetry · Obsidian second-brain automation (Claude skills & plugins) |
+| Intelligence pipelines | Newsletter-intelligence pipeline: 5 live n8n workflows pushing signals to Discord · weekly news-digest agent |
 | Lead generation | Apollo-enriched B2B lead-list automation |
 
 ---
